@@ -91,7 +91,7 @@ async def b(app, query):
         return await query.edit_message_text(k, reply_markup=mk([[btn(f'- @{i} .', url=f't.me/{i}')]]))
     rk  = """
 ⥃ لشراء الرصيد من بوت الخدمات 
-- @BxxBxxL
+- @EEc5e
     """
     keys = mk(
         [
@@ -181,7 +181,7 @@ async def service(app, query):
         ]
     )
     rk = """
-⥃ مرحبا بك عزيزي في بوت خدمات توفي | الخدمات ♯ 
+⥃ مرحبا بك عزيزي في بوت خدمات توفي | الخدمات 
 هنالك نوعين من الخدمات العادي و الـ ViP ✰
     """
     await query.edit_message_text(rk, reply_markup=keys)
