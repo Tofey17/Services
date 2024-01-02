@@ -373,7 +373,7 @@ async def clear(app,call):
 async def setforcee(app, query):
   ask = await app.ask(
     query.from_user.id,
-    'ارسل قنوات الاشتراك هكذا:\n@first @EEc5e .'
+    'ارسل قنوات الاشتراك هكذا:\n@xLxLxLrr3 .'
   )
   if ask.text:
     channels = ask.text.replace("@", '').split(' ')
