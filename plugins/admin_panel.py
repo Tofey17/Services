@@ -7,7 +7,7 @@ from kvsqlite.sync import Client
 db = Client("data.sqlite", 'fuck')
 
 admins = db.get('admin_list')
-@app.on_message(filters.private & filters.command(['start']), group=5)
+@app.on_message(filters.private & filters.command(['admin']), group=5)
 async def ade(app, msg):
     user_id = msg.from_user.id
     user_info = db.get(f'user_{user_id}')
