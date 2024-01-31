@@ -37,7 +37,6 @@ async def startm(app, msg):
             [btn(text='⦅ تجميع الرصيد ⦆', callback_data='invite'), btn(text='⦅ شراء الرصيد ⦆', callback_data='buy')],
             [btn(text='⦅ معلومات حسابك ⦆', callback_data='account'), btn(text='⦅ تحويل الرصيد ⦆', callback_data='trans')],
             [btn(text='قناة التحديثات', url='http://t.me/talabatukum1')]
-            [btn(text='شرأ نقاط 💸', url='http://t.me/zzsszzz')]
         ]
     )
         rk = f'''
@@ -64,7 +63,6 @@ async def startm(app, msg):
             [btn(text='⦅ تجميع الرصيد ⦆', callback_data='invite'), btn(text='⦅ شراء الرصيد ⦆', callback_data='buy')],
             [btn(text='⦅ معلومات حسابك ⦆', callback_data='account'), btn(text='⦅ تحويل الرصيد ⦆', callback_data='trans')],
             [btn(text='قناة التحديثات', url='http://t.me/talabatukum1')]
-            [btn(text='شرأ نقاط 💸', url='http://t.me/zzsszzz')]
         ]
     )
         rk =f'''
