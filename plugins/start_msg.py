@@ -36,11 +36,12 @@ async def startm(app, msg):
             [btn(text='⦅ قسم الخدمات ⦆', callback_data='service')],
             [btn(text='⦅ تجميع الرصيد ⦆', callback_data='invite'), btn(text='⦅ شراء الرصيد ⦆', callback_data='buy')],
             [btn(text='⦅ معلومات حسابك ⦆', callback_data='account'), btn(text='⦅ تحويل الرصيد ⦆', callback_data='trans')],
-            [btn(text='قناة التحديثات', url='http://t.me/W_CCWC')]
+            [btn(text='قناة التحديثات', url='http://t.me/talabatukum1')]
+            [btn(text='شرأ نقاط 💸', url='http://t.me/zzsszzz')]
         ]
     )
         rk = f'''
-⥃ مرحبا بك عزيزي في بوت خدمات رنثون | الخدمات
+⥃ مرحبا بك عزيزي في بوت طلباتكم - talabatukum | الخدمات
 هنالك نوعين من الخدمات العادي و الـ ViP ✰
 ⥃ البوت يتميز بسرعة تنفيذ الطلبات ⥉
 الـ 𝚒𝚍 الخاص بك ⥃ {msg.from_user.id}
@@ -58,15 +59,16 @@ async def startm(app, msg):
         coin = db.get(f'user_{user_id}')['coins']
         keys = mk(
         [
-            [btn(text='رصيدك: :,{} IQD'.format(coin), callback_data='none')],
-            [btn(text='قسم خدمات الرشق', callback_data='service')],
-            [btn(text='تجميع رصيد', callback_data='invite'), btn(text='شراء رصيد', callback_data='buy')],
-            [btn(text='معلومات حسابك', callback_data='account'), btn(text='تحويل رصيد', callback_data='trans')],
-            [btn(text='قناة التحديثات', url='http://t.me/W_CCWC')]
+            [btn(text='رصيدي: {:,} IQD'.format(coin), callback_data='lol')],
+            [btn(text='⦅ قسم الخدمات ⦆', callback_data='service')],
+            [btn(text='⦅ تجميع الرصيد ⦆', callback_data='invite'), btn(text='⦅ شراء الرصيد ⦆', callback_data='buy')],
+            [btn(text='⦅ معلومات حسابك ⦆', callback_data='account'), btn(text='⦅ تحويل الرصيد ⦆', callback_data='trans')],
+            [btn(text='قناة التحديثات', url='http://t.me/talabatukum1')]
+            [btn(text='شرأ نقاط 💸', url='http://t.me/zzsszzz')]
         ]
     )
         rk =f'''
-⥃ مرحبا بك عزيزي في بوت خدمات رنثون | الخدمات
+⥃ مرحبا بك عزيزي في بوت طلباتكم - talabatukum | الخدمات
 هنالك نوعين من الخدمات العادي و الـ ViP ✰
 ⥃ البوت يتميز بسرعة تنفيذ الطلبات ⥉
 الـ 𝚒𝚍 الخاص بك ⥃ {msg.from_user.id}
